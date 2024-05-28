@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .abc {
+            position: relative;
+        }
+
+        .abc img {
+            width: 100px;
+            height: auto;
+        }
+
+        .signin-login {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .signin-login a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .xyz {
+            position: relative;
+        }
+
+        .xyz img {
+            width: 200px;
+            height: 150px;
+        }
+
+        .xyz h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .search-bar {
+            text-align: center;
+            margin-top: 20px; /* Add space between h1 and search bar */
+        }
+
+        .search-bar input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box; /* Ensure padding and border are included in width */
+        }
+
+        .search-bar input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-bar input[type="submit"]:hover {
+            background-color: #45a049; /* Darker green */
+        }
+    </style>
+</head>
+<body>
+    <div class="abc">
+        <img src="img/logo.png">
+        <div class="signin-login">
+            <a href="#">Sign In</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+    <div class="xyz">
+        <img src="img/bg.png">
+        <h1>Happiness per Square</h1>
+        <div class="search-bar">
+            <form action="#">
+                <input type="text" placeholder="Search...">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

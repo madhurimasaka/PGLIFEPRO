@@ -1,0 +1,78 @@
+.abc{
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    border-color: black;
+    position: relative;
+}
+.abc img{
+    height: 70px;
+    width: 80px;
+}
+
+.xyz{
+    border-radius: 1px;
+    width: fit-content;
+    border-color: black;
+
+}
+.xyz img{
+    height: fit-content;
+    width: fit-content;
+}
+.xyz h1 {
+    position: absolute; /* Position the text absolutely */
+    top: 50%; /* Align the top of the text to the vertical center */
+    left: 50%; /* Align the left of the text to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+    color: white; /* Set text color to white */
+    font-weight: bold; /* Make the text bold */
+    font-style: italic; /* Add italic style */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    font-size: 20px; /* Set font size */
+    text-align: center; /* Align text horizontally */
+    padding: 10px; 
+}
+
+.container{
+    margin:0;
+    padding: 0%;
+    box-sizing:border-box ;
+    font-family: 'poppins',sans-serif;
+    height: 30px;
+    width: 100px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+} 
+.search{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    border-radius: 60%;
+    padding: 10px 20px;
+    background: rgba(255,255,255, 0.2);
+}
+search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding:24px 20px ;
+    color: darkgrey;
+}
+::placeholder{
+    color: #cac7ff;
+}
+.search button img{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor:pointer;
+
+}
